@@ -257,6 +257,12 @@
 			null
 		],
 		[
+			"D:/GraphVisualizer_FINAL/GraphVisualizer/edgeinputdialog.h",
+			"MU",
+			"EWIEGA46WW/moc_edgeinputdialog.cpp",
+			null
+		],
+		[
 			"D:/GraphVisualizer_FINAL/GraphVisualizer/graphservice.h",
 			"MU",
 			"EWIEGA46WW/moc_graphservice.cpp",
@@ -351,6 +357,11 @@
 	"SETTINGS_FILE" : "D:/GraphVisualizer_FINAL/build-GraphVisualizer-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GraphVisualizer_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"D:/GraphVisualizer_FINAL/GraphVisualizer/edgeinputdialog.cpp",
+			"MU",
+			null
+		],
 		[
 			"D:/GraphVisualizer_FINAL/GraphVisualizer/graphservice.cpp",
 			"MU",

@@ -13,6 +13,7 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
+#include <QtWidgets/QSlider>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QWidget>
 
@@ -22,6 +23,7 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
+    QSlider *horizontalSlider;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -32,6 +34,10 @@ public:
         MainWindow->resize(800, 600);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
+        horizontalSlider = new QSlider(centralwidget);
+        horizontalSlider->setObjectName("horizontalSlider");
+        horizontalSlider->setGeometry(QRect(300, 240, 160, 22));
+        horizontalSlider->setOrientation(Qt::Horizontal);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");

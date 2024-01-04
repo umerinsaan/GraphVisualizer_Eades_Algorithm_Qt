@@ -1,8 +1,10 @@
 D:/GraphVisualizer_FINAL/build-GraphVisualizer-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GraphVisualizer_autogen/EWIEGA46WW/moc_mainwindow.cpp: D:/GraphVisualizer_FINAL/GraphVisualizer/mainwindow.h \
   D:/GraphVisualizer_FINAL/build-GraphVisualizer-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GraphVisualizer_autogen/moc_predefs.h \
   D:/GraphVisualizer_FINAL/GraphVisualizer/GraphNode.h \
+  D:/GraphVisualizer_FINAL/GraphVisualizer/edgeinputdialog.h \
   D:/GraphVisualizer_FINAL/GraphVisualizer/graphwidget.h \
   D:/GraphVisualizer_FINAL/GraphVisualizer/nodeinputdialog.h \
+  D:/Qt/6.6.1/mingw_64/include/QtCore/QPair \
   D:/Qt/6.6.1/mingw_64/include/QtCore/QPointF \
   D:/Qt/6.6.1/mingw_64/include/QtCore/q20functional.h \
   D:/Qt/6.6.1/mingw_64/include/QtCore/q20memory.h \
@@ -46,6 +48,7 @@ D:/GraphVisualizer_FINAL/build-GraphVisualizer-Desktop_Qt_6_6_1_MinGW_64_bit-Deb
   D:/Qt/6.6.1/mingw_64/include/QtCore/qglobalstatic.h \
   D:/Qt/6.6.1/mingw_64/include/QtCore/qhash.h \
   D:/Qt/6.6.1/mingw_64/include/QtCore/qhashfunctions.h \
+  D:/Qt/6.6.1/mingw_64/include/QtCore/qiodevice.h \
   D:/Qt/6.6.1/mingw_64/include/QtCore/qiodevicebase.h \
   D:/Qt/6.6.1/mingw_64/include/QtCore/qiterable.h \
   D:/Qt/6.6.1/mingw_64/include/QtCore/qiterator.h \
@@ -133,6 +136,7 @@ D:/GraphVisualizer_FINAL/build-GraphVisualizer-Desktop_Qt_6_6_1_MinGW_64_bit-Deb
   D:/Qt/6.6.1/mingw_64/include/QtGui/qpaintdevice.h \
   D:/Qt/6.6.1/mingw_64/include/QtGui/qpalette.h \
   D:/Qt/6.6.1/mingw_64/include/QtGui/qpen.h \
+  D:/Qt/6.6.1/mingw_64/include/QtGui/qpicture.h \
   D:/Qt/6.6.1/mingw_64/include/QtGui/qpixelformat.h \
   D:/Qt/6.6.1/mingw_64/include/QtGui/qpixmap.h \
   D:/Qt/6.6.1/mingw_64/include/QtGui/qpolygon.h \
@@ -152,22 +156,27 @@ D:/GraphVisualizer_FINAL/build-GraphVisualizer-Desktop_Qt_6_6_1_MinGW_64_bit-Deb
   D:/Qt/6.6.1/mingw_64/include/QtGui/qwindowdefs_win.h \
   D:/Qt/6.6.1/mingw_64/include/QtWidgets/QDialog \
   D:/Qt/6.6.1/mingw_64/include/QtWidgets/QHBoxLayout \
+  D:/Qt/6.6.1/mingw_64/include/QtWidgets/QLabel \
   D:/Qt/6.6.1/mingw_64/include/QtWidgets/QLineEdit \
   D:/Qt/6.6.1/mingw_64/include/QtWidgets/QMainWindow \
   D:/Qt/6.6.1/mingw_64/include/QtWidgets/QPushButton \
+  D:/Qt/6.6.1/mingw_64/include/QtWidgets/QSlider \
   D:/Qt/6.6.1/mingw_64/include/QtWidgets/QVBoxLayout \
   D:/Qt/6.6.1/mingw_64/include/QtWidgets/QWidget \
   D:/Qt/6.6.1/mingw_64/include/QtWidgets/qabstractbutton.h \
+  D:/Qt/6.6.1/mingw_64/include/QtWidgets/qabstractslider.h \
   D:/Qt/6.6.1/mingw_64/include/QtWidgets/qboxlayout.h \
   D:/Qt/6.6.1/mingw_64/include/QtWidgets/qdialog.h \
   D:/Qt/6.6.1/mingw_64/include/QtWidgets/qframe.h \
   D:/Qt/6.6.1/mingw_64/include/QtWidgets/qgridlayout.h \
+  D:/Qt/6.6.1/mingw_64/include/QtWidgets/qlabel.h \
   D:/Qt/6.6.1/mingw_64/include/QtWidgets/qlayout.h \
   D:/Qt/6.6.1/mingw_64/include/QtWidgets/qlayoutitem.h \
   D:/Qt/6.6.1/mingw_64/include/QtWidgets/qlineedit.h \
   D:/Qt/6.6.1/mingw_64/include/QtWidgets/qmainwindow.h \
   D:/Qt/6.6.1/mingw_64/include/QtWidgets/qpushbutton.h \
   D:/Qt/6.6.1/mingw_64/include/QtWidgets/qsizepolicy.h \
+  D:/Qt/6.6.1/mingw_64/include/QtWidgets/qslider.h \
   D:/Qt/6.6.1/mingw_64/include/QtWidgets/qtabwidget.h \
   D:/Qt/6.6.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
   D:/Qt/6.6.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \

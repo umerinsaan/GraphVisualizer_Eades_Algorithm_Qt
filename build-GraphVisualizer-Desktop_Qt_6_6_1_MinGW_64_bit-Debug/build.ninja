@@ -97,6 +97,14 @@ build CMakeFiles/GraphVisualizer.dir/nodeinputdialog.cpp.obj: CXX_COMPILER__Grap
   OBJECT_DIR = CMakeFiles\GraphVisualizer.dir
   OBJECT_FILE_DIR = CMakeFiles\GraphVisualizer.dir
 
+build CMakeFiles/GraphVisualizer.dir/edgeinputdialog.cpp.obj: CXX_COMPILER__GraphVisualizer_unscanned_Debug D$:/GraphVisualizer_FINAL/GraphVisualizer/edgeinputdialog.cpp || cmake_object_order_depends_target_GraphVisualizer
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\GraphVisualizer.dir\edgeinputdialog.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/GraphVisualizer_FINAL/build-GraphVisualizer-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GraphVisualizer_autogen/include -isystem D:/Qt/6.6.1/mingw_64/include/QtCore -isystem D:/Qt/6.6.1/mingw_64/include -isystem D:/Qt/6.6.1/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.6.1/mingw_64/include/QtWidgets -isystem D:/Qt/6.6.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\GraphVisualizer.dir
+  OBJECT_FILE_DIR = CMakeFiles\GraphVisualizer.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target GraphVisualizer
@@ -105,7 +113,7 @@ build CMakeFiles/GraphVisualizer.dir/nodeinputdialog.cpp.obj: CXX_COMPILER__Grap
 #############################################
 # Link the executable GraphVisualizer.exe
 
-build GraphVisualizer.exe: CXX_EXECUTABLE_LINKER__GraphVisualizer_Debug CMakeFiles/GraphVisualizer.dir/GraphVisualizer_autogen/mocs_compilation.cpp.obj CMakeFiles/GraphVisualizer.dir/main.cpp.obj CMakeFiles/GraphVisualizer.dir/mainwindow.cpp.obj CMakeFiles/GraphVisualizer.dir/graphwidget.cpp.obj CMakeFiles/GraphVisualizer.dir/graphservice.cpp.obj CMakeFiles/GraphVisualizer.dir/nodeinputdialog.cpp.obj | D$:/Qt/6.6.1/mingw_64/lib/libQt6Widgets.a D$:/Qt/6.6.1/mingw_64/lib/libQt6Gui.a D$:/Qt/6.6.1/mingw_64/lib/libQt6Core.a D$:/Qt/6.6.1/mingw_64/lib/libQt6EntryPoint.a || GraphVisualizer_autogen GraphVisualizer_autogen_timestamp_deps
+build GraphVisualizer.exe: CXX_EXECUTABLE_LINKER__GraphVisualizer_Debug CMakeFiles/GraphVisualizer.dir/GraphVisualizer_autogen/mocs_compilation.cpp.obj CMakeFiles/GraphVisualizer.dir/main.cpp.obj CMakeFiles/GraphVisualizer.dir/mainwindow.cpp.obj CMakeFiles/GraphVisualizer.dir/graphwidget.cpp.obj CMakeFiles/GraphVisualizer.dir/graphservice.cpp.obj CMakeFiles/GraphVisualizer.dir/nodeinputdialog.cpp.obj CMakeFiles/GraphVisualizer.dir/edgeinputdialog.cpp.obj | D$:/Qt/6.6.1/mingw_64/lib/libQt6Widgets.a D$:/Qt/6.6.1/mingw_64/lib/libQt6Gui.a D$:/Qt/6.6.1/mingw_64/lib/libQt6Core.a D$:/Qt/6.6.1/mingw_64/lib/libQt6EntryPoint.a || GraphVisualizer_autogen GraphVisualizer_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = D:/Qt/6.6.1/mingw_64/lib/libQt6Widgets.a  D:/Qt/6.6.1/mingw_64/lib/libQt6Gui.a  D:/Qt/6.6.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  D:/Qt/6.6.1/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -208,7 +216,7 @@ build GraphVisualizer_autogen/timestamp GraphVisualizer_autogen/mocs_compilation
 #############################################
 # Phony custom command for CMakeFiles\GraphVisualizer_autogen_timestamp_deps
 
-build CMakeFiles/GraphVisualizer_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/GraphVisualizer_autogen_timestamp_deps: phony D$:/Qt/6.6.1/mingw_64/./bin/moc.exe D$:/Qt/6.6.1/mingw_64/./bin/uic.exe D$:/Qt/6.6.1/mingw_64/lib/libQt6Widgets.a D$:/Qt/6.6.1/mingw_64/lib/libQt6Core.a
+build CMakeFiles/GraphVisualizer_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/GraphVisualizer_autogen_timestamp_deps: phony D$:/Qt/6.6.1/mingw_64/./bin/uic.exe D$:/Qt/6.6.1/mingw_64/./bin/moc.exe D$:/Qt/6.6.1/mingw_64/lib/libQt6Core.a D$:/Qt/6.6.1/mingw_64/lib/libQt6Widgets.a
 
 
 #############################################

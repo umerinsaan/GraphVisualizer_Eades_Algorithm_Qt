@@ -8,6 +8,8 @@ public:
     QPointF position;
     QPointF velocity;
     int value;
+
+    GraphNode(){}
 };
 
 #endif // GRAPHNODE_H
